@@ -1,2 +1,2 @@
-print("Hello devOps CI Pipline")
+print("Hello devOps CI ")
 print("HI")
