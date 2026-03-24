@@ -6,9 +6,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-  steps:
-    - name: checkout code
-      uses: actions/checkout@v3
-      
-    - name: Run Python script
-      run: python hello.py
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Run Python script
+        run: python hello.py
